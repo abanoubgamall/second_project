@@ -1,0 +1,73 @@
+
+
+body {
+    font-family: 'Segoe UI light';
+  cursor: none;
+}
+
+
+#mo {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    
+}
+
+.item {
+   
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.item img {
+    width: 100%;
+    
+    object-fit: cover;
+   
+   
+   
+}
+
+.item-cap {
+   
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin-left: 30px;
+
+}
+.light
+{
+    background-color: rgb(0, 0, 0,0.5);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    cursor: auto;
+}
+.lightchi
+{
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 500px;
+position: relative;
+
+}
+.lightchi i
+{
+    width: 10px;
+    cursor: pointer;
+    
+   
+}
+#close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
